@@ -1,0 +1,29 @@
+Abstraction Percent
+1. Description
+  When a peice of software is made how much of it is abtracted versus public.
+  
+2. Use Cases
+  [user writes code]->[abstract data model] -> [total abstraction]
+      |                                             |
+      |>[no abstraction]->[total non abstraction] --|>(abstraction percent)
+      
+3. Formula
+  Abstraction/(nonAbstraction+Abastraction) = percentAbstraction
+  
+4. Sample Filter and Visualization
+  A simple percentage of abstraction
+5. Sample Implementation
+  If(Abstraction keywords)
+    then{Inrease abstraction count to public keywords on classes, data, variables, etc}
+    
+    print(total abstraction percent
+    )
+    
+6. Known Implementations
+  There is certain code editors, IDEs, and open source software who try and measure good coding practices, but not abtraction.
+  
+7. Test Cases (Examples)
+  Any software using abstract data with their software.
+  
+8. External References (Literature)
+  https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html
